@@ -2,7 +2,7 @@
 <?php
 $dischi = [
   [
-  "poster" => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
+  "poster" =>"https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
   "title" =>"New Jersey",
   "author" =>"Bon Jovi",
   "genre" =>"Rock",
@@ -17,12 +17,25 @@ $dischi = [
   "year" =>"1992"
 ],
 [
-
   "poster" =>"https://images-na.ssl-images-amazon.com/images/I/41JD3CW65HL.jpg",
   "title" => "Ten's Summoner's Tales",
   "author" => "Sting",
   "genre"=> "Pop",
   "year" =>"1993"
+],
+[
+  "poster" =>"https://images-na.ssl-images-amazon.com/images/I/810nSIQOLiL._SY355_.jpg",
+  "title"=> "Brave new World",
+  "author"=> "Iron Maiden",
+  "genre"=> "Metal",
+  "year"=> "2000"
+],
+[
+  "poster"=> "https://m.media-amazon.com/images/I/71K9CbNZPsL._SS500_.jpg",
+  "title"=> "Bad",
+  "author"=> "Michael Jacjson",
+  "genre"=> "Pop",
+  "year"=> "1987"
 ]
 
 ]

@@ -46,10 +46,10 @@ header img {
   background: #2e3a46;
   text-align: center;
 }
-.cd > img {
+.cd img {
   max-width: 100%;
 }
-.cd > h2 {
+.cd h3 {
   margin: 20px 0;
   color: white;
   font-size: 22px;

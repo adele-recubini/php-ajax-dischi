@@ -35,6 +35,8 @@ header {
     flex-wrap: wrap;
     padding: 100px 0;
 
+
+
 }
 .cd {
   display: flex;
@@ -49,12 +51,12 @@ header {
   text-align: center;
 
 
-  &>img{
+  & img{
   max-width: 100%;
   }
 
 
-  &>h2 {
+  & h3 {
     margin: 20px 0;
     color: white;
     font-size: 22px;
