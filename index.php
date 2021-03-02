@@ -30,7 +30,6 @@
      <img src = "<?php echo $disco["poster"] ?>">
      <h3><?php echo "titolo:" . $disco["title"] ?></h3>
      <h4><?php echo "autore:" . $disco["author"] ?></h4>
-     <h5><?php echo "genere:" . $disco["genre"] ?></h5>
      <h6><?php echo "anno:" . $disco["year"] ?></h6>
     <?php } ?>
     </div>
