@@ -1,12 +1,8 @@
 
-
-
 var app = new Vue({
     el: "#root",
     data: {
         dischi: [],
-
-
     },
   mounted() {
     const self = this;
