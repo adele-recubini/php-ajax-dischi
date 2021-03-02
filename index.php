@@ -15,20 +15,21 @@
   <?php require_once __DIR__ . '/database/database.php'?>
 
   <header>
-
-      <!-- <img src="img/logo.png" alt=""> -->
-
-
-
+    <div class="container">
+      <img src="img/logo.png" alt="">
+   </div>
   </header>
 
 
 
   <!-- sezione contenitore dischi -->
+  <div class="cds-container">
+    <div class="cd"
 
 
+    
     <?php foreach ($dischi as $disco) { ?>
-      <div class="contenitorecard">
+
 
     <img src = "<?php echo $disco["poster"] ?>">
     <h2><?php echo "titolo:" . $disco["title"] ?></h2>
@@ -36,9 +37,13 @@
     <h5><?php echo "genere:" . $disco["genre"] ?></h5>
     <h6><?php echo "anno:" . $disco["year"] ?></h6>
 
-    </div>
 
     <?php } ?>
+    </div>
+  </div>
+
+
+
 
 
 
