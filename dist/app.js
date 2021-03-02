@@ -10,7 +10,7 @@ var app = new Vue({
     axios.get('http://localhost/php-ajax-dischi/database.php')
       .then((risposta) => {
         self.dischi = risposta.data.response;
-        console.log(self.dischi);
+
       });
   }
 
