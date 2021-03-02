@@ -1,3 +1,9 @@
+
+
+
+
+
+
 var app = new Vue({
     el: "#root",
     data: {
@@ -9,7 +15,7 @@ var app = new Vue({
     const self = this;
     axios.get('http://localhost/php-ajax-dischi/database.php')
       .then((risposta) => {
-        self.dischi = risposta.data.response;
+
 
       });
   }
