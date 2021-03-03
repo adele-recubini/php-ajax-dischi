@@ -15,15 +15,15 @@
   <?php require_once __DIR__ . '/database/database.php'?>
 
   <header>
-    <div class="container">
+  
       <img src="img/logo.png" alt="">
-   </div>
+
   </header>
 
 
 
   <!-- sezione contenitore dischi -->
-  <div class="cds-container container">
+  <div class="cds-container">
     <?php foreach ($dischi as $disco) { ?>
     <div class="cd">
 

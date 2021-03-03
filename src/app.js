@@ -8,7 +8,7 @@ var app = new Vue({
     const self = this;
     axios.get('http://localhost/php-ajax-dischi/app/server.php')
       .then((risposta) => {
-        self.dischi = risposta;
+        self.dischi = risposta.data;
         console.log(self.dischi);
 
 
@@ -18,3 +18,7 @@ var app = new Vue({
 });
 
 Vue.config.devtools = true
+
+
+// nb quando andro a vedere la mia chiamata ajax in local host per vedere il sito  devo fare questo pattern http://localhost/php-ajax-dischi/index.html cioe dove si trova la pagina
+ // e non http://localhost/php-ajax-dischi/app/server.php

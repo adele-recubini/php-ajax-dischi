@@ -1,4 +1,3 @@
-<!-- qui creo il mio database cioe i miei dati e non metterò nient altro  -->
 <?php
 $dischi = [
   [

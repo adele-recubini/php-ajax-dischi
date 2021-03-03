@@ -17,26 +17,23 @@
 
 
       <header>
-       <div class="container">
+
          <img src="img/logo.png" alt="">
-      </div>
+
       </header>
 
      <!-- sezione contenitore dischi -->
-     <div class="cds-container container">
+     <div class="cds-container">
        <div class="cd"
-
-           v-for="element in dischi"
-
+             v-for="element in dischi"
                 >
+            
                 <img :src="element.poster">
                 <h3>{{element.title}}</h3>
                 <h4>{{element.author}}</h4>
                 <h6>{{element.year}}</h6>
             </div>
         </div>
-
-
   </div>
 
  <script src="src/app.js" charset="utf-8"></script>
