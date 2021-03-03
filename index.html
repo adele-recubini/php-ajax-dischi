@@ -19,6 +19,10 @@
       <header>
 
          <img src="img/logo.png" alt="">
+         <select v-model="generiSelect" name="">
+           <option v-for="element in generi">
+           {{element}}</option>
+         </select>
 
       </header>
 
@@ -26,8 +30,9 @@
      <div class="cds-container">
        <div class="cd"
              v-for="element in dischi"
+             v-if="generiSelect === element.genre || generiSelect === ''"
                 >
-            
+
                 <img :src="element.poster">
                 <h3>{{element.title}}</h3>
                 <h4>{{element.author}}</h4>

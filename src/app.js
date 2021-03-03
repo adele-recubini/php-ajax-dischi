@@ -3,6 +3,8 @@ var app = new Vue({
     el: "#root",
     data: {
         dischi: [],
+        generi:[],
+        generiSelect:'',
     },
   mounted() {
     const self = this;
@@ -11,6 +13,11 @@ var app = new Vue({
         self.dischi = risposta.data;
         console.log(self.dischi);
 
+        self.dischi.forEach((element) => {
+          if (!self.generi.includes(element.genre)) {
+            self.generi.push(element.genre)
+          }
+        });
 
       });
   }
